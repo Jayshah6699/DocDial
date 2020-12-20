@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+       <link rel="stylesheet" href="style.css">
+       <style>
+           
+       </style>
+
+    <title>Questions</title>
+</head>
+<body>
+
+<nav>
+    <a href="index2.html">Go Back to Home</a>
+</nav>
+    
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-4 col-md-4">
+                <div class="card bx">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <pre></pre><h3>Please Provide Some Information
+                                 </h3></pre>
+                            <p class="card-text small text-muted">Enter all the details </p>
+                            <form action="specialists.html">
+                                <div class="mb-2"><b id="signup" > Which Body parts You are having Problem with ?</b>
+                                    
+                                   <select name="bodyparts" id="bodyparts" class="form-control form-control-sm">
+                                    <option value="#">Select Your bodypart</option>
+                                    <option value="Adrenal Glands">Adrenal Glands</option>
+                                    <option value="Anus">Anus</option>
+                                    <option value="Appendix">Appendix</option>
+                                    <option value="Arteries">Arteries</option>
+                                    <option value="Bladder">Bladder</option>
+                                    <option value="Bone Marrow">Bone Marrow</option>
+                                    <option value="Bones">Bones</option>
+                                    <option value="Brain">Brain</option>
+                                    <option value="Bronchi">Bronchi</option>
+                                    <option value="Bulbourethral glands">Bulbourethral glands</option>
+                                    <option value="Capillaries">Capillaries</option>
+                                    <option value="Diaphragm">Diaphragm</option>
+                                    <option value="Ears">Ears</option>
+                                    <option value="Epididymis">Epididymis</option>
+                                    <option value="Eyes">Eyes</option>
+                                    <option value="Fallopian Tubes">Fallopian Tubes</option>
+                                    <option value="Foramen Ovale">Foramen Ovale</option>
+                                    <option value="Gallbladder">Gallbladder</option>
+                                    <option value="Heart">Heart</option>
+                                    <option value="Hypothalamus">Hypothalamus</option>
+                                    <option value="Interstitium">Interstitium</option>
+                                    <option value="Joints">Joints</option>
+                                    <option value="Kidneys">Kidneys</option>
+                                    <option value="Large Intestine">Large Intestine</option>
+                                    <option value="Larynx">Larynx</option>
+                                    <option value="Ligaments">Ligaments</option>
+                                    <option value="Liver">Liver</option>
+                                    <option value="Lungs">Lungs</option>
+                                    <option value="Lymph Nodes">Lymph Nodes</option>
+                                    <option value="Lymphatic vessel">Lymphatic vessel</option>
+                                    <option value="Mammary Glands">Mammary Glands</option>
+                                    <option value="Mesentery">Mesentery</option>
+                                    <option value="Mouth">Mouth</option>
+                                    <option value="Nasal Cavity">Nasal Cavity</option>
+                                    <option value="Nerves">Nerves</option>
+                                    <option value="Nose">Nose</option>
+                                    <option value="Oesophagus">Oesophagus</option>
+                                    <option value="Olfactory epithelium">Olfactory epithelium</option>
+                                    <option value="Ovary">Ovary</option>
+                                    <option value="Pancreas">Pancreas</option>
+                                    <option value="Parathyroid Glands">Parathyroid Glands</option>
+                                    <option value="Penis">Penis</option>
+                                    <option value="Penis">Penis</option>
+                                    <option value="Pineal Gland">Pineal Gland</option>
+                                    <option value="Pituitary Gland">Pituitary Gland</option>
+                                    <option value="Placenta">Placenta</option>
+                                    <option value="Prostate">Prostate</option>
+                                    <option value="Rectum">Rectum</option>
+                                    <option value="Salivary Glands">Salivary Glands</option>
+                                    <option value="Scrotum">Scrotum</option>
+                                    <option value="Seminal vesicles">Seminal vesicles</option>
+                                    <option value="Skeletal Muscles">Skeletal Muscles</option>
+                                    <option value="Skin">Skin</option>
+                                    <option value="Small Intestine">Small Intestine</option>
+                                    <option value="Spinal Cord">Spinal Cord</option>
+                                    <option value="Spleen">Spleen</option>
+                                    <option value="Stomach">Stomach</option>
+                                    <option value="Subcutaneous tissue">Subcutaneous tissue</option>
+                                    <option value="Teeth">Teeth</option>
+                                    <option value="Tendons">Tendons</option>
+                                    <option value="Testes">Testes</option>
+                                    <option value="Thymus Gland">Thymus Gland</option>
+                                    <option value="Thyroid">Thyroid</option>
+                                    <option value="Tongue">Tongue</option>
+                                    <option value="Tonsils">Tonsils</option>
+                                    <option value="Trachea">Trachea</option>
+                                    <option value="Ureters">Ureters</option>
+                                    <option value="Uterus">Uterus</option>
+                                    <option value="Vagina">Vagina</option>
+                                    <option value="Vas deferens">Vas deferens</option>
+                                    <option value="Veins">Veins</option>
+                                    <option value="Vulva">Vulva</option>
+                                    <option value="others">Others</option>
+                                   </select>
+                                </div>
+                                <div class="mb-3"> <b id="doctor"> Do you want to get any particular specialist </b>
+                                    <select name="location" id="specialist" class="form-control form-control-sm" required>
+                                        <option value="#">Select Your specialist</option>
+                                        <option value="Adult Intensivist">Adult Intensivist</option>
+                                        <option value="Allergy">Allergy</option>
+                                        <option value="Ambulatory Clinics">Ambulatory Clinics</option>
+                                        <option value="Anesthesia">Anesthesia</option>
+                                        <option value="ASC SPECIALTIES">ASC SPECIALTIES</option>
+                                        <option value="Bariatric Medicine">Bariatric Medicine</option>
+                                        <option value="Bariatric Surgery">Bariatric Surgery</option>
+                                        <option value="Burn/Trauma">Burn/Trauma</option>
+                                        <option value="Cardiac Catheterization">Cardiac Catheterization</option>
+                                        <option value="Cardiac Catheterization Labs">Cardiac Catheterization Labs</option>
+                                        <option value="Cardiology">Cardiology</option>
+                                        <option value="Cardiovascular Surgery">Cardiovascular Surgery</option>
+                                        <option value="Colorectal Surgery">Colorectal Surgery</option>
+                                        <option value="Dermatology">Dermatology</option>
+                                        <option value="Diagnostic Radiology">Diagnostic Radiology</option>
+                                        <option value="Electrophysiology">Electrophysiology</option>
+                                        <option value="Emergency Department">Emergency Department</option>
+                                        <option value="Emergency Medicine">Emergency Medicine</option>
+                                        <option value="Endocrinology">Endocrinology</option>
+                                        <option value="ENT">ENT</option>
+                                        <option value="Family Practice">Family Practice</option>
+                                        <option value="Gastroenterology">Gastroenterology</option>
+                                        <option value="General Surgery">General Surgery</option>
+                                        <option value="Geriatrics">Geriatrics</option>
+                                        <option value="GI Endoscopy Labs">GI Endoscopy Labs</option>
+                                        <option value="Gynecologic Oncology">Gynecologic Oncology</option>
+                                        <option value="HCC AUDITS">HCC AUDITS</option>
+                                        <option value="Hematology/Oncology">Hematology/Oncology</option>
+                                        <option value="Hepatobiliary">Hepatobiliary</option>
+                                        <option value="HOSPITAL CODING">HOSPITAL CODING</option>
+                                        <option value="Hospitalist">Hospitalist</option>
+                                        <option value="Infectious Disease">Infectious Disease</option>
+                                        <option value="Inpatient Acute Care">Inpatient Acute Care</option>
+                                        <option value="Internal Medicine">Internal Medicine</option>
+                                        <option value="Interventional Cardiology">Interventional Cardiology</option>
+                                        <option value="Interventional Radiology">Interventional Radiology</option>
+                                        <option value="Medical Genetics">Medical Genetics</option>
+                                        <option value="Neonatology">Neonatology</option>
+                                        <option value="Nephrology">Nephrology</option>
+                                        <option value="Neurology">Neurology</option>
+                                        <option value="Neuroradiology">Neuroradiology</option>
+                                        <option value="Neurosurgery">Neurosurgery</option>
+                                        <option value="Nuclear Medicine">Nuclear Medicine</option>
+                                        <option value="Obstetrics & Gynecology">Obstetrics & Gynecology</option>
+                                        <option value="Occupational Medicine">Occupational Medicine</option>
+                                        <option value="Ophthalmology">Ophthalmology</option>
+                                        <option value="Oral Surgery">Oral Surgery</option>
+                                        <option value="Oral/Dental Surgery">Oral/Dental Surgery</option>
+                                        <option value="Orthopedic Surgery">Orthopedic Surgery</option>
+                                        <option value="Orthopedics">Orthopedics</option>
+                                        <option value="Otolaryngology / Head & Neck Surgery">Otolaryngology / Head & Neck Surgery</option>
+                                        <option value="Pain Management">Pain Management</option>
+                                        <option value="Palliative Care">Palliative Care</option>
+                                        <option value="Pathology: Surgical & Anatomic">Pathology: Surgical & Anatomic</option>
+                                        <option value="Pediatric Intensivist">Pediatric Intensivist</option>
+                                        <option value="Pediatric Surgery">Pediatric Surgery</option>
+                                        <option value="Pediatrics">Pediatrics</option>
+                                        <option value="Physical Medicine">Physical Medicine</option>
+                                        <option value="Plastic & Reconstructive Surgery">Plastic & Reconstructive Surgery</option>
+                                        <option value="Plastic Surgery">Plastic Surgery</option>
+                                        <option value="Podiatric Surgery">Podiatric Surgery</option>
+                                        <option value="Psychiatry">Psychiatry</option>
+                                        <option value="Pulmonary Medicine">Pulmonary Medicine</option>
+                                        <option value="Radiation Oncology">Radiation Oncology</option>
+                                        <option value="Radiology">Radiology</option>
+                                        <option value="Rheumatology">Rheumatology</option>
+                                        <option value="Same Day Surgery">Same Day Surgery</option>
+                                        <option value="Small Specialty Hospitals">Small Specialty Hospitals</option>
+                                        <option value="Surgical Oncology">Surgical Oncology</option>
+                                        <option value="Surgical Pathology">Surgical Pathology</option>
+                                        <option value="Thoracic Surgery">Thoracic Surgery</option>
+                                        <option value="Transplant Surgery">Transplant Surgery</option>
+                                        <option value="Urology">Urology</option>
+                                        <option value="Vascular Surgery">Vascular Surgery</option>
+                                        <option value="Wound Care">Wound Care</option>
+                                        
+                                        
+                                     </select>
+                                    <label for="area"><div class="mb-2"><b id="signup">Chose Your Region</b></label>
+                                        <select name="location" id="location" class="form-control form-control-sm" required>
+                                            <option value="#">Select Your Region</option>
+                                            <!-- From here onward list of 50 states of USA-->
+                                            <option value="Alabama">Alabama</option>
+                                            <option value="Alaska">Alaska</option>
+                                            <option value="Arizona">Arizona</option>
+                                            <option value="Arkansas">Arkansas</option>
+                                            <option value="California">California</option>
+                                            <option value="Colorado">Colorado</option>
+                                            <option value="Connecticut">Connecticut</option>
+                                            <option value="Delaware">Delaware</option>
+                                            <option value="Florida">Florida</option>
+                                            <option value="Georgia">Georgia</option>
+                                            <option value="Hawaii">Hawaii</option>
+                                            <option value="Idaho">Idaho</option>
+                                            <option value="Illinois">Illinois</option>
+                                            <option value="Indiana">Indiana</option>
+                                            <option value="Iowa">Iowa</option>
+                                            <option value="Kansas">Kansas</option>
+                                            <option value="Kentucky">Kentucky</option>
+                                            <option value="Louisiana">Louisiana</option>
+                                            <option value="Maine">Maine</option>
+                                            <option value="Maryland">Maryland</option>
+                                            <option value="Massachusetts">Massachusetts</option>
+                                            <option value="Michigan">Michigan</option>
+                                            <option value="Minnesota">Minnesota</option>
+                                            <option value="Mississippi">Mississippi</option>
+                                            <option value="Missouri">Missouri</option>
+                                            <option value="Montana">Montana</option>
+                                            <option value="Nebraska">Nebraska</option>
+                                            <option value="Nevada">Nevada</option>
+                                            <option value="New Hampshire">New Hampshire</option>
+                                            <option value="New Jersey">New Jersey</option>
+                                            <option value="New Mexico">New Mexico</option>
+                                            <option value="New York">New York</option>
+                                            <option value="North Carolina">North Carolina</option>
+                                            <option value="Ohio">Ohio</option>
+                                            <option value="Oklahoma">Oklahoma</option>
+                                            <option value="Oregon">Oregon</option>
+                                            <option value="Pennsylvania">Pennsylvania</option>
+                                            <option value="Rhode Island">Rhode Island</option>
+                                            <option value="South Carolina">South Carolina</option>
+                                            <option value="South Dakota">South Dakota</option>
+                                            <option value="Tennessee">Tennessee</option>
+                                            <option value="Texas">Texas</option>
+                                            <option value="Utah">Utah</option>
+                                            <option value="Vermont">Vermont</option>
+                                            <option value="Verginia">Verginia</option>
+                                            <option value="Washington">Washington</option>
+                                            <option value="West Verginia">West Verginia</option>
+                                            <option value="Wisconsin">Wisconsin</option>
+                                            <option value="Wyoming">Wyoming</option>
+                                        
+                                            <option value="Others">Others</option>
+                                        </select>
+                                        </div>
+                                        
+                                        
+                                        <div class="mb-2">
+
+                                            <input type="submit" class="btn btn-block btn-sm btn-success" value="submit">
+
+                                   
+                                </div>
+                          
+                                        
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+
+
+    
+</body>
+</html>
